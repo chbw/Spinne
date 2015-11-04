@@ -84,8 +84,8 @@ void SpecialMove()    // "Fliag auf die Pappm"
 {
   // Servo: Mitte = 1500 Bereich(500-2500) mechanische Limits beachten!
   
-  Serial.print("#5P1500#21P1500");  // Coxa Servos einstellen
-  Serial.print("#4P1500#20P1500");  // Femur
-  Serial.print("#8P1000#24P2000");  // Tibia
+  Serial.print("#5P1000#21P1000");  // Coxa Servos einstellen
+  Serial.print("#4P1000#20P1000");  // Femur
+  Serial.print("#8P1000#24P1000");  // Tibia
   Serial.print("T2000\r");           // Zeit die die Bewegung dauern soll und Abschluss des Befehls
 }

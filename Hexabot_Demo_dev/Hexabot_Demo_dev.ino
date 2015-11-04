@@ -73,28 +73,9 @@ void setup()
 
 void loop()
 {
-  DrehenRechts();
-    //delay(2000);
-    //GehenVorwaerts();
-    //Wait(7000);
-    //Bounce();
-    //Bounce();
-    //Bounce();
-    //SpecialMove();
-    //delay(5000);
-    //Bounce();
-    //Bounce();
-    //GehenRechts();
-    //Wait(6500);
-    //GehenVorwaerts();
-    Wait(5500);
-    Stop();
-    while(true)
-    {
-      //PhoenixLoop();
-      Wait(100);
-      DrehenRechts();
-    }
+  Stop();
+  SpecialMove();
+  Wait(3000);
 }
 
 // Hält den Programmablauf an, lässt den Roboter aber weitergehen.
